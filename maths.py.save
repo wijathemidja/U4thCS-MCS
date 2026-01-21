@@ -33,7 +33,7 @@ def perimeter(h_length, v_length):
     one = h_length//2
     two = v_length//2
     length = one**2 + two**2
-    length = length**0.5
+    length = sqrt(length)
     return length*4
 
 def bearing_q(known_bearing):
