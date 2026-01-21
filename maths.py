@@ -160,7 +160,7 @@ def main():
             elif args[0] == 'subtract':
                 subtract(args[1], args[2])
             elif args[0] == 'times':
-                times(args[0], args[1])
+                times(args[1], args[2])
             elif args[0] == 'divide':
                 divide(args[1], args[2])
             elif args[0] == 'bearing':
